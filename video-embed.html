@@ -75,7 +75,10 @@
   could be done smarter using datafiles but that defeats the
   point of making this a plugin-less tool.
 {% endcomment %}
-{%- if source == "Dailymotion" -%}
+{%- if source == "20DETIK" -%}
+  {%- assign url = "20.detik.com/embed/" -%}
+
+{%- elsif source == "Dailymotion" -%}
   {%- assign url = "dailymotion.com/embed/video/" -%}
 
 {%- elsif source == "Google Drive" -%}
@@ -87,6 +90,9 @@
 {%- elsif source == "Twitch" -%}
   {%- assign url = "clips.twitch.tv/embed?clip=" -%}
   {%- assign id = id | append: "&parent=" | append: host -%}
+
+{%- elsif source == "Vidio" -%}
+  {%- assign url = "www.vidio.com/embed/" -%}
 
 {%- elsif source == "Vimeo" -%}
   {%- assign url = "player.vimeo.com/video/" -%}
