@@ -1,6 +1,8 @@
-# jekyll-embed-video
+# Jekyll Embed Video
 
 Embed YouTube, Vimeo, Twitch, and more in Jekyll webpages without a plugin. If you're hosting your webpage using GitHub pages only [whitelisted plugins](https://pages.github.com/versions/) are allowed. Here's a method using a Liquid template stored in `_includes` instead.
+
+Fork of [this great project](https://github.com/nathancy/jekyll-embed-video) by [Nathan Lam](https://www.nathan-lam.com), released under an unknown license.
 
 ## Table of Contents
 
@@ -11,6 +13,7 @@ Embed YouTube, Vimeo, Twitch, and more in Jekyll webpages without a plugin. If y
   * [Google Drive](#google-drive)
   * [Streamable](#streamable)
   * [Twitch](#twitch)
+  * [Vidio](#vidio)
   * [Vimeo](#vimeo)
   * [YouTube](#youtube)
 * [Responsive Videos](#responsive-videos)
