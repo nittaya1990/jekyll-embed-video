@@ -37,11 +37,11 @@ See below for example usage for each service and how to find the `VideoID` and [
 
 ### 20DETIK
 
-Use `20DETIK` as `SiteName` and the number in the embedded video URL as the `VideoID` (for example, 20.detik.com/embed/190130051 would be `190130051`).
+Use `20DETIK` as `SiteName` and the number in the embedded video URL as the `VideoID` (for example, [20.detik.com/embed/190130051](https://20.detik.com/embed/190130051) would be `190130051`).
 
 ### Dailymotion
 
-Use `Dailymotion` as `SiteName` and the ID in the video URL as the `VideoID` (for example, dailymotion.com/video/x8429i4 would be `x8429i4`).
+Use `Dailymotion` as `SiteName` and the ID in the video URL as the `VideoID` (for example, [dailymotion.com/video/x8429i4](https://dailymotion.com/video/x8429i4) would be `x8429i4`).
 
 ### Google Drive
 
@@ -65,25 +65,25 @@ Again, would highly recommend just using a unlisted [YouTube](#youtube) video in
 
 ### Streamable
 
-Use `Streamable` as `SiteName` and the ID in the URL as the `VideoID` (for example, streamable.com/s9ijg would be `s9ijg`). You can also use [Streamable's free online tool](https://streamable.com/embed-video).
+Use `Streamable` as `SiteName` and the ID in the URL as the `VideoID` (for example, [streamable.com/s9ijg](https://streamable.com/s9ijg) would be `s9ijg`). You can also use [Streamable's free online tool](https://streamable.com/embed-video).
 
 ### Twitch
 
-Use `Twitch` as `SiteName` and the long string which appears in the URL as the `VideoID`. For example, clips.twitch.tv/StylishChillyTubersDancingBaby would be `StylishChillyTubersDancingBaby`.
+Use `Twitch` as `SiteName` and the long string which appears in the URL as the `VideoID`. For example, [clips.twitch.tv/StylishChillyTubersDancingBaby](https://clips.twitch.tv/StylishChillyTubersDancingBaby) would be `StylishChillyTubersDancingBaby`.
 
 For security purposes Twitch also asks for the URL on which the website is being embedded, but provided you’ve defined `site.url` as standard in your `_config.yml` then the template will [handle that](video-embed.html#L61-L70). See the [embedding Twitch clips documentation](https://dev.twitch.tv/docs/embed/video-and-clips/#non-interactive-iframes-for-clips) for more details.
 
 ### Vidio
 
-Use `Vidio` as `SiteName` and the number in the URL as the `VideoID`. For example, vidio.com/watch/1671743-love-nature-channel-channel-trailer would be `1671743`.
+Use `Vidio` as `SiteName` and the number in the URL as the `VideoID`. For example, [vidio.com/watch/1671743-love-nature-channel-channel-trailer](https://vidio.com/watch/1671743-love-nature-channel-channel-trailer) would be `1671743`.
 
 ### Vimeo
 
-Use `Vimeo` as `SiteName` and the number in the URL as the `VideoID` (for example, vimeo.com/22439234 would be `22439234`). Take a look at [accessing and editing embed codes](https://vimeo.zendesk.com/hc/articles/360000710167-Accessing-and-editing-embed-codes) if you're having trouble with your video's embed code ID.
+Use `Vimeo` as `SiteName` and the number in the URL as the `VideoID` (for example, [vimeo.com/22439234](https://vimeo.com/22439234) would be `22439234`). Take a look at [accessing and editing embed codes](https://vimeo.zendesk.com/hc/articles/360000710167-Accessing-and-editing-embed-codes) if you're having trouble with your video's embed code ID.
 
 ### YouTube
 
-Use `YouTube` as `SiteName` and `v` value in the URL as the `VideoID` (for example, youtube.com/watch?v=T1itpPvFWHI would be `T1itpPvFWHI`).
+Use `YouTube` as `SiteName` and `v` value in the URL as the `VideoID` (for example, [youtube.com/watch?v=T1itpPvFWHI](https://youtube.com/watch?v=T1itpPvFWHI) would be `T1itpPvFWHI`).
 
 ## Responsive Videos
 
