@@ -7,7 +7,6 @@ mixerId: putYourIDHere
 driveId: putYourIDHere
 detikId: putYourIDHere
 dailymotionId: putYourIDHere
-metubeId: putYourIDHere
 vidioId: putYourIDHere
 linetodayId: putYourIDHere
 countryId: putYourIDHere
@@ -92,16 +91,6 @@ Example:     dailymotionId: x2btuie
 -->
 
 {% include dailymotionPlayer.html id=page.dailymotionId %}
-
-# Embed Metube 
-
-<!---
-Include this next line in your .md file for Metube videos, make sure to put your video ID up there!
-
-Example:     metubeId: 11107214
--->
-
-{% include metubePlayer.html id=page.metubeId %}
 
 # Embed Vidio 
 
